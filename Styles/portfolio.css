@@ -20,6 +20,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 
 .nav-title{
@@ -39,4 +40,94 @@ nav li{
 nav a{
     text-decoration: none;
     color:#474747;
+}
+/* header related style */
+.header{
+    background: #FFF8F3;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+.banner{
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bannar.profile-picture{
+    width:500px;
+}
+.banner-greety{
+    font-size: 45px;
+    color:#181818;
+    margin-bottom: 0;
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.bannar-description{
+    color:#757575;
+    font-size: 18px;
+    font-weight: 400;
+}
+.banner-content{
+    max-width: 50%;
+}
+/* Main Section Styles */
+main{
+    max-width:1140px;
+    margin:0 auto;
+}
+main section{
+    margin-top: 130px;
+}
+
+/* About Section Styles */
+.about{
+    padding:130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin:130px
+}
+.section-title{
+    color:#181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+.section-description{
+    color:  #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+.about-info-container{
+    display:flex;
+    justify-content: around;
+
+}
+.about-info{
+    text-align: center;
+}
+/* what i do related style */
+.skill-containers{
+    display:flex;
+    gap:24px;
+}
+
+#what-i-do-description{
+    padding:30px 150px;
+}
+.skill{
+    padding:30px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0,0,0,0,0.06);
+    
+}
+.skill-description{
+   
 }
